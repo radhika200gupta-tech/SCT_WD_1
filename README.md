@@ -1,11 +1,13 @@
 # SCT_WD_1 — Orbiton AI Landing Page
 
-Web Development Internship (Task 01) — a fully responsive AI startup landing page built with vanilla HTML, CSS &amp; JavaScript
+Web Development Internship (Task 01) — a fully responsive AI startup landing page built with vanilla HTML, CSS , JavaScript
 
 A premium, modern, fully responsive landing page for a fictional AI SaaS startup, **Orbiton AI**. Built from scratch with HTML5, CSS3, and Vanilla JavaScript — no frameworks, no libraries.
 
 > **Project:** Web Development Internship — Task 01
-> **Live Preview:** open `index.html` in any modern browser
+> > **🌐 Live Demo:** https://radhika200gupta-tech.github.io/SCT_WD_1/
+> # 📸 Project Preview
+> ![Orbiton AI Homepage](hero.png)
 
 ---
 
@@ -100,7 +102,11 @@ No build tools or dependencies required.
 - Accessibility basics included: visible focus states, `aria-label`s on icon-only buttons, and `prefers-reduced-motion` support.
 
 ---
-
 ## 👤 Author
 
-Built as part of a Web Development Internship — Task 01.
+**Radhika Gupta**
+
+Frontend Developer | Web Development Enthusiast
+
+Built as part of my Web Development Internship (Task 01) at SkillCraft Technology.
+
