@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbiton AI — Intelligent Automation for Modern Teams</title>
+  <meta name="description" content="Orbiton AI helps teams automate workflows, analyze data, and make smarter decisions with cutting-edge artificial intelligence." />
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader__logo">Orbiton<span>AI</span></div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="#home" class="navbar__logo">
+        <i class="fa-solid fa-brain"></i>
+        <span>Orbiton<em>AI</em></span>
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="navbar__nav" id="navbarNav">
+        <ul class="navbar__links">
+          <li><a href="#home" class="nav-link active-link" data-link>Home</a></li>
+          <li><a href="#features" class="nav-link" data-link>Features</a></li>
+          <li><a href="#services" class="nav-link" data-link>Services</a></li>
+          <li><a href="#pricing" class="nav-link" data-link>Pricing</a></li>
+          <li><a href="#testimonials" class="nav-link" data-link>Testimonials</a></li>
+          <li><a href="#faq" class="nav-link" data-link>FAQ</a></li>
+          <li><a href="#contact" class="nav-link" data-link>Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA + Hamburger -->
+      <div class="navbar__actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Get Started</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu__links">
+      <li><a href="#home" class="mobile-link" data-link>Home</a></li>
+      <li><a href="#features" class="mobile-link" data-link>Features</a></li>
+      <li><a href="#services" class="mobile-link" data-link>Services</a></li>
+      <li><a href="#pricing" class="mobile-link" data-link>Pricing</a></li>
+      <li><a href="#testimonials" class="mobile-link" data-link>Testimonials</a></li>
+      <li><a href="#faq" class="mobile-link" data-link>FAQ</a></li>
+      <li><a href="#contact" class="mobile-link" data-link>Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn--primary" data-link>Get Started</a>
+  </div>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <!-- Floating decorative shapes (pure CSS) -->
+      <div class="floating-shapes" aria-hidden="true">
+        <span class="shape shape--1"></span>
+        <span class="shape shape--2"></span>
+        <span class="shape shape--3"></span>
+        <span class="shape shape--4"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content" data-animate="fade-up">
+          <span class="badge">
+            <i class="fa-solid fa-sparkles"></i> Powered by Next-Gen AI
+          </span>
+
+          <h1 class="hero__title">
+            Automate Smarter.<br />
+            Decide Faster with <span class="gradient-text">Orbiton AI</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            Orbiton AI turns your raw business data into real-time insight and
+            automated action — so your team can focus on what actually moves
+            the needle, not repetitive busywork.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--primary btn--lg" data-ripple>
+              <i class="fa-solid fa-rocket"></i> Start Free Trial
+            </a>
+            <a href="#services" class="btn btn--ghost btn--lg" data-ripple>
+              <i class="fa-solid fa-circle-play"></i> Watch Demo
+            </a>
+          </div>
+
+          <div class="hero__meta">
+            <div class="avatars">
+              <img src="https://i.pravatar.cc/40?img=12" alt="User avatar" />
+              <img src="https://i.pravatar.cc/40?img=32" alt="User avatar" />
+              <img src="https://i.pravatar.cc/40?img=45" alt="User avatar" />
+              <span class="avatars__count">5k+</span>
+            </div>
+            <p>Trusted by <strong>5,000+</strong> teams worldwide</p>
+          </div>
+        </div>
+
+        <!-- AI Illustration -->
+        <div class="hero__visual" data-animate="fade-up" data-delay="200">
+          <div class="hero__glow"></div>
+          <div class="ai-orb">
+            <div class="ai-orb__core">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="ai-orb__ring ai-orb__ring--1"></div>
+            <div class="ai-orb__ring ai-orb__ring--2"></div>
+            <div class="ai-orb__ring ai-orb__ring--3"></div>
+
+            <!-- floating mini cards around the orb -->
+            <div class="float-card float-card--1">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>Efficiency +42%</span>
+            </div>
+            <div class="float-card float-card--2">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Real-time Sync</span>
+            </div>
+            <div class="float-card float-card--3">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Enterprise Secure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#trusted" class="scroll-indicator" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Trusted companies -->
+    <section class="trusted" id="trusted">
+      <div class="container">
+        <p class="trusted__label" data-animate="fade-up">
+          Powering the workflows of forward-thinking companies
+        </p>
+        <div class="trusted__logos" data-animate="fade-up" data-delay="100">
+          <span><i class="fa-solid fa-cubes"></i> Nexora</span>
+          <span><i class="fa-solid fa-atom"></i> Quantex</span>
+          <span><i class="fa-solid fa-diamond"></i> Vertexa</span>
+          <span><i class="fa-solid fa-infinity"></i> Zenlytic</span>
+          <span><i class="fa-solid fa-layer-group"></i> Stackwise</span>
+          <span><i class="fa-solid fa-circle-nodes"></i> Nebulon</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="eyebrow">Features</span>
+          <h2>Everything you need to work smarter</h2>
+          <p>A complete AI toolkit built to streamline your operations from end to end.</p>
+        </div>
+
+        <div class="features__grid">
+          <div class="feature-card" data-animate="fade-up" data-delay="0">
+            <div class="feature-card__icon">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <h3>Smart Automation</h3>
+            <p>Automate repetitive tasks and complex workflows with intelligent, self-learning pipelines.</p>
+          </div>
+
+          <div class="feature-card" data-animate="fade-up" data-delay="100">
+            <div class="feature-card__icon">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <h3>Predictive Analytics</h3>
+            <p>Forecast trends and outcomes with models trained on your own business data.</p>
+          </div>
+
+          <div class="feature-card" data-animate="fade-up" data-delay="200">
+            <div class="feature-card__icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3>Conversational AI</h3>
+            <p>Deploy natural-language assistants that understand context and intent.</p>
+          </div>
+
+          <div class="feature-card" data-animate="fade-up" data-delay="0">
+            <div class="feature-card__icon">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <h3>Enterprise Security</h3>
+            <p>End-to-end encryption and role-based access keep your data locked down.</p>
+          </div>
+
+          <div class="feature-card" data-animate="fade-up" data-delay="100">
+            <div class="feature-card__icon">
+              <i class="fa-solid fa-plug"></i>
+            </div>
+            <h3>Seamless Integrations</h3>
+            <p>Connect Orbiton AI to the tools you already use in just a few clicks.</p>
+          </div>
+
+          <div class="feature-card" data-animate="fade-up" data-delay="200">
+            <div class="feature-card__icon">
+              <i class="fa-solid fa-gauge-high"></i>
+            </div>
+            <h3>Real-Time Dashboards</h3>
+            <p>Monitor performance and KPIs live, with insights that update instantly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="eyebrow">Services</span>
+          <h2>AI solutions tailored to your business</h2>
+          <p>From strategy to deployment, we build AI systems that fit the way your team works.</p>
+        </div>
+
+        <div class="service-row" data-animate="fade-up">
+          <div class="service-row__visual">
+            <div class="service-mock">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+          </div>
+          <div class="service-row__content">
+            <span class="service-tag">01 — Strategy</span>
+            <h3>AI Consulting &amp; Strategy</h3>
+            <p>We audit your workflows and design a practical AI roadmap that delivers measurable ROI, not just buzzwords.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check"></i> Workflow discovery &amp; audit</li>
+              <li><i class="fa-solid fa-circle-check"></i> Custom automation roadmap</li>
+              <li><i class="fa-solid fa-circle-check"></i> ROI-driven implementation plan</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-row service-row--reverse" data-animate="fade-up">
+          <div class="service-row__visual">
+            <div class="service-mock">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+          </div>
+          <div class="service-row__content">
+            <span class="service-tag">02 — Build</span>
+            <h3>Custom Model Development</h3>
+            <p>Our engineers design and train models tuned to your data, deployed securely inside your infrastructure.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check"></i> Fine-tuned language &amp; vision models</li>
+              <li><i class="fa-solid fa-circle-check"></i> On-prem or cloud deployment</li>
+              <li><i class="fa-solid fa-circle-check"></i> Continuous model monitoring</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-row" data-animate="fade-up">
+          <div class="service-row__visual">
+            <div class="service-mock">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+          </div>
+          <div class="service-row__content">
+            <span class="service-tag">03 — Support</span>
+            <h3>Managed AI Operations</h3>
+            <p>We keep your AI systems running, retrained, and optimized so your team never has to think about upkeep.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check"></i> 24/7 monitoring &amp; support</li>
+              <li><i class="fa-solid fa-circle-check"></i> Automated retraining pipelines</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dedicated success manager</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="why-us" id="why-us">
+      <div class="container why-us__inner">
+        <div class="why-us__visual" data-animate="fade-up">
+          <div class="why-us__card why-us__card--main">
+            <i class="fa-solid fa-brain"></i>
+            <h4>Orbiton Core Engine</h4>
+            <p>Self-optimizing AI infrastructure</p>
+          </div>
+          <div class="why-us__card why-us__card--float-1">
+            <i class="fa-solid fa-users"></i>
+            <span>98% Client Retention</span>
+          </div>
+          <div class="why-us__card why-us__card--float-2">
+            <i class="fa-solid fa-clock"></i>
+            <span>3x Faster Deployment</span>
+          </div>
+        </div>
+
+        <div class="why-us__content" data-animate="fade-up" data-delay="150">
+          <span class="eyebrow">Why Choose Us</span>
+          <h2>Built for teams that move fast and think ahead</h2>
+          <p>
+            Orbiton AI isn't just another tool bolted onto your stack — it's an
+            adaptive layer of intelligence designed to grow alongside your
+            business.
+          </p>
+
+          <div class="why-us__points">
+            <div class="why-point">
+              <div class="why-point__icon"><i class="fa-solid fa-bolt"></i></div>
+              <div>
+                <h4>Lightning-Fast Implementation</h4>
+                <p>Go live in days, not months, with guided onboarding.</p>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="why-point__icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+              <div>
+                <h4>Continuous Learning</h4>
+                <p>Models improve automatically as your data grows.</p>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="why-point__icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+              <div>
+                <h4>Human-Centered Support</h4>
+                <p>A real team behind the AI, whenever you need us.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="stats">
+      <div class="container stats__grid">
+        <div class="stat-card" data-animate="fade-up">
+          <h3 class="stat-number" data-target="5000" data-suffix="+">0</h3>
+          <p>Active Teams</p>
+        </div>
+        <div class="stat-card" data-animate="fade-up" data-delay="100">
+          <h3 class="stat-number" data-target="120" data-suffix="M+">0</h3>
+          <p>Tasks Automated</p>
+        </div>
+        <div class="stat-card" data-animate="fade-up" data-delay="200">
+          <h3 class="stat-number" data-target="99" data-suffix=".9%">0</h3>
+          <p>Uptime Guarantee</p>
+        </div>
+        <div class="stat-card" data-animate="fade-up" data-delay="300">
+          <h3 class="stat-number" data-target="40" data-suffix="+">0</h3>
+          <p>Countries Served</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="eyebrow">Pricing</span>
+          <h2>Simple, transparent pricing</h2>
+          <p>Choose a plan that scales with your team. Cancel anytime.</p>
+        </div>
+
+        <div class="pricing__toggle" data-animate="fade-up">
+          <span class="toggle-label active" id="monthlyLabel">Monthly</span>
+          <button class="toggle-switch" id="pricingToggle" aria-label="Toggle yearly pricing">
+            <span class="toggle-switch__dot"></span>
+          </button>
+          <span class="toggle-label" id="yearlyLabel">Yearly <em>(save 20%)</em></span>
+        </div>
+
+        <div class="pricing__grid">
+          <div class="price-card" data-animate="fade-up" data-delay="0">
+            <h3>Starter</h3>
+            <p class="price-card__desc">For individuals &amp; small teams getting started with AI.</p>
+            <div class="price-card__amount">
+              <span class="currency">$</span>
+              <span class="amount" data-monthly="19" data-yearly="15">19</span>
+              <span class="period">/mo</span>
+            </div>
+            <ul class="price-card__list">
+              <li><i class="fa-solid fa-check"></i> 1 AI Workflow</li>
+              <li><i class="fa-solid fa-check"></i> 5,000 tasks / month</li>
+              <li><i class="fa-solid fa-check"></i> Email support</li>
+              <li><i class="fa-solid fa-check"></i> Basic analytics</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--full" data-ripple>Choose Starter</a>
+          </div>
+
+          <div class="price-card price-card--featured" data-animate="fade-up" data-delay="150">
+            <span class="price-card__badge">Most Popular</span>
+            <h3>Growth</h3>
+            <p class="price-card__desc">For growing teams that need serious automation power.</p>
+            <div class="price-card__amount">
+              <span class="currency">$</span>
+              <span class="amount" data-monthly="49" data-yearly="39">49</span>
+              <span class="period">/mo</span>
+            </div>
+            <ul class="price-card__list">
+              <li><i class="fa-solid fa-check"></i> 10 AI Workflows</li>
+              <li><i class="fa-solid fa-check"></i> 50,000 tasks / month</li>
+              <li><i class="fa-solid fa-check"></i> Priority support</li>
+              <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+              <li><i class="fa-solid fa-check"></i> Custom integrations</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--full" data-ripple>Choose Growth</a>
+          </div>
+
+          <div class="price-card" data-animate="fade-up" data-delay="300">
+            <h3>Enterprise</h3>
+            <p class="price-card__desc">For organizations with advanced security &amp; scale needs.</p>
+            <div class="price-card__amount">
+              <span class="currency">$</span>
+              <span class="amount" data-monthly="99" data-yearly="79">99</span>
+              <span class="period">/mo</span>
+            </div>
+            <ul class="price-card__list">
+              <li><i class="fa-solid fa-check"></i> Unlimited AI Workflows</li>
+              <li><i class="fa-solid fa-check"></i> Unlimited tasks</li>
+              <li><i class="fa-solid fa-check"></i> Dedicated account manager</li>
+              <li><i class="fa-solid fa-check"></i> SSO &amp; advanced security</li>
+              <li><i class="fa-solid fa-check"></i> Custom SLA</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--full" data-ripple>Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="eyebrow">Testimonials</span>
+          <h2>Loved by teams around the world</h2>
+          <p>Don't just take our word for it — here's what our customers say.</p>
+        </div>
+
+        <div class="testimonials__grid">
+          <div class="testimonial-card" data-animate="fade-up" data-delay="0">
+            <div class="testimonial-card__stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>"Orbiton AI cut our manual reporting time by 70%. It genuinely feels like we hired an extra analyst."</p>
+            <div class="testimonial-card__author">
+              <img src="https://i.pravatar.cc/50?img=5" alt="Sarah Malik" />
+              <div>
+                <h4>Sarah Malik</h4>
+                <span>Operations Lead, Nexora</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-animate="fade-up" data-delay="150">
+            <div class="testimonial-card__stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>"The onboarding was fast and the support team actually understands AI. Best SaaS decision we made this year."</p>
+            <div class="testimonial-card__author">
+              <img src="https://i.pravatar.cc/50?img=15" alt="David Chen" />
+              <div>
+                <h4>David Chen</h4>
+                <span>CTO, Quantex</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+            <div class="testimonial-card__stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>"Predictive analytics helped us catch a churn risk two months early. That alone paid for the subscription."</p>
+            <div class="testimonial-card__author">
+              <img src="https://i.pravatar.cc/50?img=25" alt="Amara Obi" />
+              <div>
+                <h4>Amara Obi</h4>
+                <span>Growth Manager, Zenlytic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container faq__inner">
+        <div class="section-header" data-animate="fade-up">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Everything you need to know before getting started.</p>
+        </div>
+
+        <div class="faq__list" data-animate="fade-up">
+          <div class="faq-item active">
+            <button class="faq-item__question">
+              What exactly does Orbiton AI do?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Orbiton AI connects to your existing tools and data, then automates workflows, surfaces predictive insights, and powers conversational assistants — all from one platform.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question">
+              Do I need technical knowledge to use it?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Not at all. Orbiton AI is built with a no-code workflow builder, and our onboarding team helps you set everything up in your first week.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question">
+              Is my data secure with Orbiton AI?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Yes. We use end-to-end encryption, role-based access controls, and SOC 2-aligned infrastructure to keep your data safe at every stage.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question">
+              Can I cancel my subscription anytime?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Absolutely. There are no long-term contracts — you can upgrade, downgrade, or cancel your plan at any time from your dashboard.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question">
+              Do you offer support for enterprise teams?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Yes — Enterprise plans include a dedicated account manager, custom SLAs, and priority 24/7 support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__info" data-animate="fade-up">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's build something intelligent together</h2>
+          <p>Have a question or ready to get started? Fill out the form and our team will get back to you within 24 hours.</p>
+
+          <ul class="contact__details">
+            <li><i class="fa-solid fa-envelope"></i> orbitonai873@gmail.com</li>
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li><i class="fa-solid fa-location-dot"></i> WeWork Forum, DLF Cyber City, Gurugram, Haryana 122002</li>
+          </ul>
+
+          <div class="social-links">
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <!--
+          Formspree is connected: submissions POST to
+          https://formspree.io/f/mbdvznvy and are emailed to
+          orbitonai873@gmail.com.
+        -->
+        <form
+          class="contact__form"
+          id="contactForm"
+          action="https://formspree.io/f/mbdvznvy"
+          method="POST"
+          data-animate="fade-up"
+          data-delay="150"
+          novalidate
+        >
+          <input type="hidden" name="_subject" value="New message from Orbiton AI website" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+              <span class="form-error">Please enter your name</span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              <span class="form-error">Please enter a valid email</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="How can we help?" required />
+            <span class="form-error">Please enter a subject</span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+            <span class="form-error">Please enter a message</span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full btn--lg" data-ripple>
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+
+          <p class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i> Your message has been sent successfully!
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="navbar__logo">
+          <i class="fa-solid fa-brain"></i>
+          <span>Orbiton<em>AI</em></span>
+        </a>
+        <p>Intelligent automation for teams who want to move faster and think bigger.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why-us">About Us</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col footer__newsletter">
+        <h4>Stay Updated</h4>
+        <p>Get product news and AI insights in your inbox.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter" />
+          <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>&copy; <span id="currentYear"></span> Orbiton AI. All rights reserved.</p>
+      <ul class="footer__legal">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookies</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
